@@ -1,0 +1,21 @@
+{
+  "name": "buscalibre",
+  "version": "0.1",
+  "description": "LexartLabs Software Engeneering test",
+  "main": "index.js",
+  "scripts": {
+    "compose:up": "cd app && docker-compose up -d --build",
+    "compose:down": "cd app && docker-compose down --remove-orphans"
+  },
+  "author": "marcelsguima",
+  "devDependencies": {
+    "axios": "0.26.0",
+    "dotenv": "10.0.0",
+    "mongodb":"5.2.0"
+  },
+  "dependencies": {
+    "camelcase": "6.3.0",
+    "http-status-codes": "2.2.0",
+    "jsonwebtoken": "8.5.1"
+  }
+}
